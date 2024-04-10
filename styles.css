@@ -1,0 +1,80 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: #282828; /* Change text color to white */
+}
+
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layer {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2FC637;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2FC637;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+h1{
+  color: #FFAB00;
+}
+h3{
+  color: #FFAB00;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+#layer2{
+  background: #181818;
+  padding: 10%;
+  border-radius: 15%;
+  margin: 5%;
+}
+/* Add hover effect to layer two */
+#layer2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+#from{
+  margin-left: 32%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #605F5F;
+  /* Semi-transparent black background */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer p span {
+  font-weight: bold;
+}
